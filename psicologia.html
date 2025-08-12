@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Psicología</title>
+  <meta name="author" content="CRISTIAN GABRIEL RODRIGUEZ ORTEGA" />
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 20px;
+      background: #f9f9f9;
+      color: #333;
+    }
+    h1 {
+      color: #2c3e50;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .descripcion {
+      max-width: 700px;
+      margin: 0 auto 40px auto;
+      font-size: 18px;
+      line-height: 1.6;
+      text-align: center;
+      color: #555;
+    }
+    .libros {
+      max-width: 900px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+    .libro-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s, box-shadow 0.3s;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+      color: inherit;
+    }
+    .libro-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+    }
+    .libro-imagen {
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+    }
+    .libro-info {
+      padding: 15px 20px;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .libro-titulo {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: #2c3e50;
+    }
+    .libro-autor {
+      font-size: 15px;
+      color: #777;
+      margin-bottom: 15px;
+    }
+    .libro-link {
+      text-align: center;
+      background-color: #2980b9;
+      color: white;
+      padding: 10px;
+      border-radius: 5px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+    .libro-link:hover {
+      background-color: #1c5985;
+    }
+    .volver {
+      display: block;
+      max-width: 900px;
+      margin: 40px auto 0 auto;
+      color: #555;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 500;
+      text-align: left;
+    }
+    .volver:hover {
+      text-decoration: underline;
+    }
+    footer {
+      margin-top: 50px;
+      text-align: center;
+      font-size: 14px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🧠 Psicología</h1>
+
+  <div class="descripcion">
+    La psicología nos ayuda a comprender la mente humana, las emociones y el comportamiento. 
+    Estos libros gratuitos en español ofrecen una visión profunda y práctica para quienes desean aprender, 
+    crecer personalmente o dedicarse al estudio profesional de la psicología.
+  </div>
+
+  <div class="libros">
+
+    <a href="https://drive.google.com/file/d/1PfIPk8Of8UWmuG1QFQ8LnPEBGH7Ybe6s/view?usp=sharing" target="_blank" class="libro-card">
+      <img src="img/el-arte-de-amar.jpg" alt="El Arte de Amar" class="libro-imagen" />
+      <div class="libro-info">
+        <div>
+          <div class="libro-titulo">El Arte de Amar</div>
+          <div class="libro-autor">Erich Fromm</div>
+        </div>
+        <div><span class="libro-link">Ver Libro</span></div>
+      </div>
+    </a>
+
+    <a href="https://drive.google.com/file/d/1OoSe9XhuqWFeKzsMs-wX_cjdyxeJEAPK/view?usp=sharing" target="_blank" class="libro-card">
+      <img src="img/inteligencia-emocional.jpg" alt="Inteligencia Emocional" class="libro-imagen" />
+      <div class="libro-info">
+        <div>
+          <div class="libro-titulo">Inteligencia Emocional</div>
+          <div class="libro-autor">Daniel Goleman</div>
+        </div>
+        <div><span class="libro-link">Ver Libro</span></div>
+      </div>
+    </a>
+
+    <a href="https://drive.google.com/file/d/1OSLmZSe6RnS-mLTdca0bSkTbV7Htu7uG/view?usp=sharing" target="_blank" class="libro-card">
+      <img src="img/piensa-rapido-piensa-despacio.jpg" alt="Piensa Rápido, Piensa Despacio" class="libro-imagen" />
+      <div class="libro-info">
+        <div>
+          <div class="libro-titulo">Piensa Rápido, Piensa Despacio</div>
+          <div class="libro-autor">Daniel Kahneman</div>
+        </div>
+        <div><span class="libro-link">Ver Libro</span></div>
+      </div>
+    </a>
+
+    <a href="https://drive.google.com/file/d/1P4panR_Q6t43lUQlwpykPjEswU_h2zBw/view?usp=sharing" target="_blank" class="libro-card">
+      <img src="img/psicologia-social-myers.jpg" alt="Psicología Social" class="libro-imagen" />
+      <div class="libro-info">
+        <div>
+          <div class="libro-titulo">Psicología Social</div>
+          <div class="libro-autor">David G. Myers</div>
+        </div>
+        <div><span class="libro-link">Ver Libro</span></div>
+      </div>
+    </a>
+
+    <a href="https://drive.google.com/file/d/1Ou7UTWrBMGDpGV4xRsVs4_LH8xrc3tIM/view?usp=sharing" target="_blank" class="libro-card">
+      <img src="img/interpretacion-de-los-suenos.jpg" alt="La Interpretación de los Sueños" class="libro-imagen" />
+      <div class="libro-info">
+        <div>
+          <div class="libro-titulo">La Interpretación de los Sueños</div>
+          <div class="libro-autor">Sigmund Freud</div>
+        </div>
+        <div><span class="libro-link">Ver Libro</span></div>
+      </div>
+    </a>
+
+    <a href="https://drive.google.com/file/d/1PAZpcEOixmBjQu0A0DJ7mrLz7zWw7me1/view?usp=sharing" target="_blank" class="libro-card">
+      <img src="img/los-patitos-feos.jpg" alt="Los Patitos Feos" class="libro-imagen" />
+      <div class="libro-info">
+        <div>
+          <div class="libro-titulo">Los Patitos Feos</div>
+          <div class="libro-autor">Boris Cyrulnik</div>
+        </div>
+        <div><span class="libro-link">Ver Libro</span></div>
+      </div>
+    </a>
+
+  </div>
+
+  <a href="index.html" class="volver">⬅ Volver a la página principal</a>
+
+  <footer>
+    Página creada por <strong>CRISTIAN GABRIEL RODRIGUEZ ORTEGA</strong>
+  </footer>
+
+</body>
+</html>
